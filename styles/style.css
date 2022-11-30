@@ -391,7 +391,6 @@
 }
 .footer__social-icon {
   size: 16px 16px;
-  display: flex;
   align-items: center;
   padding-right: 10px;
   display: inline-flex;
