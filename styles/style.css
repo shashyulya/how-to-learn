@@ -28,7 +28,8 @@
   font-size: 102px;
   font-weight: 600;
   line-height: 96px;
-  width: 730px;
+  max-width: 730px;
+  width: 100%;
   margin: 0;
   padding: 0;
   z-index: 2;
@@ -44,7 +45,8 @@
   object-fit: cover;
 }
 .header__subtitle {
-  width: 388px;
+  max-width: 388px;
+  width: 100%;
   position: absolute;
   bottom: 30px;
   left: 64px;
@@ -93,7 +95,8 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  width: 175px;
+  max-width: 175px;
+  width: 100%;
   color: #2f80ed;
   margin: 0;
   padding: 0;
@@ -191,7 +194,8 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   z-index: 2;
 }
 .feynman {
@@ -212,7 +216,8 @@
   padding: 0;
   z-index: 2;
   text-decoration: none;
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
@@ -380,27 +385,3 @@
   padding-right: 10px;
   /*display: inline-flex;*/
   }
-
-/*ВАРИАНТ 1
-.footer__column-link {
-  display: flex;
-  margin: 0;
-  color: #fff;
-  text-decoration: none;
-  padding: 0;
-  padding-bottom: 16px;
-  list-style: none;
-  flex-direction: column;
-}
-.footer__column-links {
-  margin: 0;
-  padding: 0;
-  z-index: 2;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 30px;
-  font-weight: normal;
-  color: #fff;
-  list-style: none;
-  display: flex;
-} */
