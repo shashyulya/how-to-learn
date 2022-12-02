@@ -248,7 +248,6 @@
   position: absolute;
   right: 48px;
   top: 50%;
-  right: 0;
   color: #2f80ed;
 }
 .kaufman {
@@ -306,7 +305,7 @@
   margin: 0;
   width: 90%;
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 .logo_place_footer {
   }
