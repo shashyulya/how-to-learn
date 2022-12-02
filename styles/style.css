@@ -19,7 +19,7 @@
   width: 228px;
   height: 32px;
 }
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   left: 64px;
   top: 30px;
@@ -29,14 +29,11 @@
   font-weight: 600;
   line-height: 96px;
   width: 730px;
-  justify-content: center;
   margin: 0;
   padding: 0;
   z-index: 2;
-  text-decoration: none;
 }
 .header__main-illustration {
-  padding: o;
   display: flex;
   width: 765px;
   height: 608px;
@@ -44,8 +41,9 @@
   bottom: 0;
   right: 0;
   z-index: 1;
+  object-fit: cover;
 }
-.header__text {
+.header__subtitle {
   width: 388px;
   position: absolute;
   bottom: 30px;
@@ -56,16 +54,12 @@
   margin: 0;
   padding: 0;
   z-index: 2;
-  text-decoration: none;
 }
 .header__square-pic {
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  padding: 0;
   position: absolute;
-  align-self: center;
-  justify-content: flex-end;
   z-index: 0;
   right: 0;
   top: 64px;
@@ -75,6 +69,7 @@
   padding: 0;
   z-index: 2;
   text-decoration: none;
+  color: #2f80ed;
 }
 .description {
   width: 80%;
@@ -88,13 +83,11 @@
   margin: 0;
   padding: 0;
   z-index: 2;
-  text-decoration: none;
 }
 .two-columns__paragraph {
   margin: 0;
   padding: 0;
   z-index: 2;
-  text-decoration: none;
 }
 .two-columns__brief {
   line-height: 1.2;
@@ -105,7 +98,6 @@
   margin: 0;
   padding: 0;
   z-index: 2;
-  text-decoration: none;
 }
 .two-columns__main-text {
   min-width: 784px;
@@ -119,7 +111,6 @@
   margin: 0;
   padding: 0;
   z-index: 2;
-  text-decoration: none;
 }
 .two-columns__span-accent {
   line-height: 34px;
@@ -128,7 +119,6 @@
   margin: 0;
   padding: 0;
   z-index: 2;
-  text-decoration: none;
 }
 .digits {
   padding-top: 100px;
@@ -136,7 +126,7 @@
   justify-content: center;
   flex-direction: column;
 }
-.section__title {
+.section-title {
   margin: 0;
   padding: 0;
   z-index: 2;
@@ -168,18 +158,17 @@
   padding: 0;
   display: flex;
   flex-direction: row;
+  list-style: none;
   flex-wrap: wrap;
   margin: 0 auto;
   padding-bottom: 100px;
   justify-content: space-between;
   z-index: 2;
-  text-decoration: none;
 }
 .table__cell {
   margin: 0;
   padding: 0;
   z-index: 2;
-  text-decoration: none;
   width: 250px;
   display: flex;
   flex-direction: column;
@@ -189,31 +178,28 @@
   margin: 0;
   padding: 0;
   z-index: 2;
-  display: flex;
-  text-decoration: none;
-  list-style-type: none;
-  width: 60%;
   font-weight: 600;
   line-height: 1.15;
   font-size: 24px;
-
 }
 .table__text {
   text-decoration: none;
   list-style-type: none;
+  margin: 0 auto;
   display: flex;
   padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   width: 250px;
+  z-index: 2;
 }
 .feynman {
+  box-sizing: border-box;
   display: flex;
-  min-height: 600px;
+  min-height: 890px;
   flex-direction: column;
   padding-top: 100px;
-  padding-bottom: 100px;
   position: relative;
   background-color: #f2f2f2;
   background-image: url(../images/feynman.png);
@@ -227,17 +213,15 @@
   z-index: 2;
   text-decoration: none;
   width: 648px;
-  max-height: 790px;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 600;
   text-align: center;
-  background: none;
-  justify-content: center;
 }
 .feynman__subtitle {
-  margin: 70px auto;
+  margin: 0 auto;
   padding: 0;
+  padding-top: 70px;
   z-index: 2;
   text-decoration: none;
   font-size: 36px;
@@ -256,10 +240,11 @@
   font-weight: normal;
   display: flex;
   justify-content: flex-end;
-  padding-right: 48px;
   position: absolute;
-  top: 50vh;
+  right: 48px;
+  top: 50%;
   right: 0;
+  color: #2f80ed;
 }
 .kaufman {
   overflow: hidden;
@@ -269,7 +254,7 @@
   justify-content: center;
   flex-direction: column;
 }
-.section__title_theme_dark {
+.section-title_theme_dark {
   color: white;
   padding-top: 90px;
 }
@@ -294,7 +279,7 @@
   width: 200px;
 }
 .kaufman__triangle {
-  z-index: 2;
+  z-index: 1;
   background-image: url(../images/kaufman-triangle.svg);
   background-size: cover;
   position: absolute;
@@ -316,21 +301,9 @@
   margin: 0;
   width: 90%;
   display: flex;
-  align-content: space-between;
+  justify-content: space-between
 }
-.footer__column_content_copyright {
-  margin: 0;
-  padding: 0;
-  color: white;
-  flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.logo__place_footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+.logo_place_footer {
   }
 .footer__author {
   margin: 0;
@@ -342,17 +315,27 @@
   list-style: none;
   padding: 18px 0;
 }
+.footer__column {
+
+}
+.footer__column_content_copyright {
+  margin: 0;
+  padding: 0;
+  color: white;
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 .footer__column_content_info {
   list-style: none;
-  flex-grow: 1;
-  display: inline-flex;
-  flex-direction: row-reverse;
-}
-.footer__column_content_social{
-  flex-grow: 1;
   display: inline-flex;
   flex-direction: column;
-  align-items: flex-end;
+
+}
+.footer__column_content_social{
+  display: inline-flex;
+  flex-direction: column;
   list-style: none;
 }
 .footer__column-heading {
@@ -367,10 +350,42 @@
   color: white;
   padding-bottom: 20px;
 }
+.footer__column-links {
+  display: flex;
+  margin: 0;
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+  padding-bottom: 16px;
+  list-style: none;
+  flex-direction: column;
+}
+.footer__column-link {
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: normal;
+  color: #fff;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  align-items: center;
+  padding-right: 10px;
+  /*display: inline-flex;*/
+  }
+
+/*ВАРИАНТ 1
 .footer__column-link {
   display: flex;
   margin: 0;
-  color: #f2f2f2;
+  color: #fff;
   text-decoration: none;
   padding: 0;
   padding-bottom: 16px;
@@ -385,13 +400,7 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
-  color: #f2f2f2;
+  color: #fff;
   list-style: none;
   display: flex;
-}
-.footer__social-icon {
-  size: 16px 16px;
-  align-items: center;
-  padding-right: 10px;
-  display: inline-flex;
-  }
+} */
