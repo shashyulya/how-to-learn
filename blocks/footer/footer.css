@@ -1,0 +1,9 @@
+.footer {
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  min-height: 250px; /*минимальная высота по брифу 350px, с учетом padding получается 350px-40px-60px=250px*/
+  display: flex;
+  justify-content: center;
+  background-color: #1f1f1f;
+}
