@@ -1,0 +1,5 @@
+.footer__column_content_info {
+  list-style: none;
+  display: inline-flex;
+  flex-direction: column;
+}

@@ -1,0 +1,11 @@
+.footer__column-heading {
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+  list-style: none;
+  color: white;
+  padding-bottom: 20px;
+}
