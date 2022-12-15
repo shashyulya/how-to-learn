@@ -11,3 +11,7 @@
   display: flex;
   align-items: center;
 }
+.footer__column-link:hover {
+  transition: ease .3s;
+  opacity: 0.7;
+}
