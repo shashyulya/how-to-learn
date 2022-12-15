@@ -1,5 +1,8 @@
+@import url(../vendor/normalize.css);
 /*page*/
 @import url(../blocks/page/page.css);
+/*animation*/
+@import url(../blocks/rotation/rotation.css);
 /*header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__title/header__title.css);
@@ -13,6 +16,12 @@
 @import url(../blocks/logo/_place/logo_place_footer.css);
 /*description*/
 @import url(../blocks/description/description.css);
+/*techniques*/
+@import url(../blocks/techniques/techniques.css);
+/*video*/
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__iframes/video__iframes.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
 /*two-columns*/
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__paragraph/two-columns__paragraph.css);

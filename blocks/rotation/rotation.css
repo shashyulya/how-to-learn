@@ -1,0 +1,15 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.rotation {
+  /*animation: rotation 20s, infinite linear; <-- в этом варианте не работает бесконечная прокрутка почему-то*/
+  animation-name: rotation;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
