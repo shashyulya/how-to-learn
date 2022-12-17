@@ -1,12 +1,11 @@
 .cards {
-  width: 920px;
+  max-width: 920px;
   padding: 0;
+  margin: 0 auto;
+  z-index: 2;
+  list-style: none;
+  box-sizing: border-box;
   display: flex;
   flex-direction: row;
-  list-style: none;
-  flex-wrap: nowrap;
-  margin: 0 auto;
-  justify-content: space-between;
-  z-index: 2;
-  box-sizing: border-box;
+  flex-wrap: wrap;
 }
